@@ -5,19 +5,19 @@ On appelle pôlynome du second degré une fonction du type
 $f(x)=ax²+bx+c$
 
 Où a, b et c sont des nombres réel et où **a est non nul**. 
-Si a est nul alors la fonction f est une fonction affine.
+Si a est nul alors la fonction $f$ est une fonction affine.
 
 ## Représentation graphique
 
 La courbe d'un pôlynome est une **parabole**.  
-Lorsque x tend vers $+\infty$ et $-\infty$, f(x) peut tendre vers $+\infty$ ou $-\infty$.  
-En langage barbare, lorsque x tend vers la gauche et la droite, f(x) peut tendre vers le haut ou vers le bas.  
+Lorsque x tend vers $+\infty$ et $-\infty$, $f$(x) peut tendre vers $+\infty$ ou $-\infty$.  
+En langage barbare, lorsque x tend vers la gauche et la droite, $f$(x) peut tendre vers le haut ou vers le bas.  
 Nous verrons plus tard comment déterminer cela par calcul avec un tableau de signes.  
 
 
 ### Intersection avec l'axe des abscisses
 
-Si la fonction f possède un minimum **inférieur à 0** et tend vers $+\infty$ OU si elle possède un maximum **supérieur à 0** et tend vers $-\infty$, alors elle croisera l'axe des abscisses en deux points $x_1$ et $x_2$.  
+Si la fonction $f$ possède un minimum **inférieur à 0** et tend vers $+\infty$ OU si elle possède un maximum **supérieur à 0** et tend vers $-\infty$, alors elle croisera l'axe des abscisses en deux points $x_1$ et $x_2$.  
 ![fig_001](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_01.png)
 ![fig_002](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_02.png)
 
@@ -60,7 +60,7 @@ Si $\Delta < 0$ on a pas de réponse ([pas de contact avec les abscisses](https:
 
 
 ## Formes d'un pôlynome
-Le pôlynome f peut être écrit de plusieurs manières, ou **formes**.
+La fonction pôlynome $f$ peut être écrite de plusieurs manières, ou **formes**.
 
 **Forme développée**
 
@@ -76,7 +76,7 @@ Si $\Delta = 0$ alors
 
 $f(x)=a(x-x_0)²$
 
-Si $\Delta < 0$ alors pas de forme factorisée
+Si $\Delta < 0$ alors $f$ n'a pas de forme factorisée
 
 **Forme canonique**
 
@@ -89,3 +89,12 @@ $\alpha = \frac{-b}{2a}$
 
 $\beta = \frac{\Delta}{4a} = \frac{b²-4ac}{4a}$
 
+## Etude du signe d'un pôlynome
+
+Etudier le signe d'un pôlynome revient à se demander "pour chaque x, est-ce que f(x) est positif ou négatif ?", autrement dit, pour chaque valeur, est-ce que ma courbe est au-dessus ou en dessous de l'axe des abscisses ?
+
+$\usepackage{tkz-tab}
+\begin{tikzpicture}
+\tkzTabInit{$x$ / 1 , $f(x)$ / 1}{$-\infty$, $x_1$, $x_2$, $+\infty$}
+\tkzTabLine{, -, z, +, z, -,}
+\end{tikzpicture}$

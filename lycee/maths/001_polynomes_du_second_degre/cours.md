@@ -91,4 +91,21 @@ $\beta = \frac{\Delta}{4a} = \frac{b²-4ac}{4a}$
 
 ## Etude du signe d'un pôlynome
 
-Etudier le signe d'un pôlynome revient à se demander "pour chaque x, est-ce que f(x) est positif ou négatif ?", autrement dit, pour chaque valeur, est-ce que ma courbe est au-dessus ou en dessous de l'axe des abscisses ?
+Etudier le signe d'un pôlynome revient à se demander "pour chaque $x$, est-ce que $f(x)$ est positif ou négatif ?", autrement dit, pour chacune des valeurs, est-ce que ma courbe est au-dessus ou en dessous de l'axe des abscisses ?
+
+Dans le cas où le pôlynome est sous forme factorisée, on peut utiliser le tableau de signes pour trouver les valeurs de $x$ pour lesquelles $f(x)$ est positif ou négatif.
+
+Pour $\Delta > 0$ on a
+
+Todo: tableau de signes
+
+Pour $\Delta = 0$ on a
+
+Todo: tableau de signes
+
+Pour $\Delta < 0$ on a
+
+Todo: tableau de signes
+
+> [!IMPORTANT]  
+> Prenez le temps de comprendre la relation entre ces tableaux de signes, les représentations graphiques et la valeur du discriminant $\Delta$.

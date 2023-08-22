@@ -59,36 +59,6 @@ $x_2 = \frac{-b+\sqrt{\Delta}}{2a}$
 Si $\Delta < 0$ on a pas de réponse ([pas de contact avec les abscisses](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#absence-de-contact-avec-laxe-des-abscisses))
 
 
-## Formes d'un pôlynome
-La fonction pôlynome $f$ peut être écrite de plusieurs manières, ou **formes**.
-
-**Forme développée**
-
-$f(x)=ax²+bx+c$
-
-**Forme factorisée**
-
-Si $\Delta > 0$ alors
-
-$f(x)=a(x-x_1)(x-x_2)$
-
-Si $\Delta = 0$ alors
-
-$f(x)=a(x-x_0)²$
-
-Si $\Delta < 0$ alors $f$ n'a pas de forme factorisée
-
-**Forme canonique**
-
-$f(x)=a(x-\alpha)²+\beta$
-
-Où 
-
-$\alpha = \frac{-b}{2a}$
-
-
-$\beta = \frac{\Delta}{4a} = \frac{b²-4ac}{4a}$
-
 ## Etude du signe d'un pôlynome
 
 Etudier le signe d'un pôlynome revient à se demander "pour chaque $x$, est-ce que $f(x)$ est positif ou négatif ?", autrement dit, pour chacune des valeurs, est-ce que ma courbe est au-dessus ou en dessous de l'axe des abscisses ?
@@ -109,3 +79,56 @@ Todo: tableau de signes
 
 > [!IMPORTANT]  
 > Prenez le temps de bien comprendre la relation entre ces tableaux de signes, les [représentations graphiques](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#repr%C3%A9sentation-graphique) et [la valeur du discriminant](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#calcul-des-racines-du-p%C3%B4lynome).
+
+## Formes d'un pôlynome
+La fonction pôlynome $f$ peut être écrite de plusieurs manières, ou **formes**.
+
+**Forme développée**
+
+$f(x)=ax²+bx+c$
+
+**Forme factorisée**
+
+Si $\Delta > 0$ alors 
+
+$f(x)=a(x-x_1)(x-x_2)$
+
+Si $\Delta = 0$ alors
+
+$f(x)=a(x-x_0)²$
+
+Si $\Delta < 0$ alors $f$ n'a pas de forme factorisée
+
+**Forme canonique**
+
+$f(x)=a(x-\alpha)²+\beta$
+
+Où 
+
+$\alpha = \frac{-b}{2a}$
+
+
+$\beta = \frac{\Delta}{4a} = \frac{b²-4ac}{4a}$
+
+
+### Passage d'une forme à l'autre
+
+**Forme développée vers forme factorisée**
+
+On utilise la formule du discriminant pour trouver les racines du pôlynome $x_1$ et $x_2$ ou $x_0$.
+
+Si $\Delta = 0$ alors $x_0 = \frac{-b}{2a}$ 
+
+$$ax²+bx+c = a(x-x_0)²\\
+ax²+bx+c = a(x+\frac{b}{2a})²$$
+
+Si $\Delta > 0$ alors $x_1 = \frac{-b-\sqrt{\Delta}}{2a}$ et $x_2 = \frac{-b+\sqrt{\Delta}}{2a}$
+
+$$ax²+bx+c = a(x-\color{yellow}x_1\color{auto})(x-\color{green}x_2\color{auto})\\
+ax²+bx+c = a(x-\color{yellow}\frac{-b-\sqrt{\Delta}}{2a}\color{auto})(x-\color{green}\frac{-b+\sqrt{\Delta}}{2a}\color{auto})$$
+
+Comme $\Delta = b² -4ac$ alors
+
+$$ax²+bx+c = a(x-\color{yellow}\frac{-b-\sqrt{b² -4ac}}{2a}\color{auto})(x-\color{green}\frac{-b+\sqrt{b² -4ac}}{2a}\color{auto})$$
+
+

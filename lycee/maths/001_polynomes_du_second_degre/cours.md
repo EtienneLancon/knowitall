@@ -4,18 +4,17 @@ On appelle pôlynome du second degré une fonction du type
 
 $f(x)=ax²+bx+c$
 
-Où a, b et c sont des nombres réel et où **a est non nul**.  
-Elle a pour représentation graphique une [courbe parabolique](https://fr.wikipedia.org/wiki/Parabole#/media/Fichier:Parabola.svg).  
-Si a est nul f alors est une fonction affine.
+Où a, b et c sont des nombres réel et où **a est non nul**. 
+Si a est nul alors la fonction f est une fonction affine.
 
 ## Représentation graphique
 
-La courbe d'un pôlynome est donc une parabole.  
-Lorsque x tend vers $+\infty$ ou $-\infty$, f(x) peut tendre vers $+\infty$ ou $-\infty$.  
-En langage barbare, lorsque x tend vers la gauche ou la droite, f(x) peut tendre vers le haut ou vers le bas.  
+La courbe d'un pôlynome est une **parabole**.  
+Lorsque x tend vers $+\infty$ et $-\infty$, f(x) peut tendre vers $+\infty$ ou $-\infty$.  
+En langage barbare, lorsque x tend vers la gauche et la droite, f(x) peut tendre vers le haut ou vers le bas.  
 Nous verrons plus tard comment déterminer cela par calcul avec un tableau de signes.  
 
-Etant donné la forme d'une parabole (revoyez au besoin l'image), la courbe possède un minimum si elle tend vers $+\infty$ et un maximum si elle tend vers $-\infty$.  
+Etant donné la forme d'une parabole, la courbe possède un minimum si elle tend vers $+\infty$ et un maximum si elle tend vers $-\infty$.  
 Si elle possède un minimum inférieur à 0 et tend vers $+\infty$ OU si elle possède un maximum supérieur à 0 et tend vers $-\infty$, alors elle croisera l'axe des abscisses en deux points $x_1$ et $x_2$.  
 Si elle possède un minimum / maximum égal à 0 alors elle ne "touchera" l'axe des abscisses qu'en un seul point qu'on nommera $x_0$.  
 

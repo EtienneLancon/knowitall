@@ -92,9 +92,3 @@ $\beta = \frac{\Delta}{4a} = \frac{b²-4ac}{4a}$
 ## Etude du signe d'un pôlynome
 
 Etudier le signe d'un pôlynome revient à se demander "pour chaque x, est-ce que f(x) est positif ou négatif ?", autrement dit, pour chaque valeur, est-ce que ma courbe est au-dessus ou en dessous de l'axe des abscisses ?
-
-$\usepackage{tkz-tab}
-\begin{tikzpicture}
-\tkzTabInit{$x$ / 1 , $f(x)$ / 1}{$-\infty$, $x_1$, $x_2$, $+\infty$}
-\tkzTabLine{, -, z, +, z, -,}
-\end{tikzpicture}$

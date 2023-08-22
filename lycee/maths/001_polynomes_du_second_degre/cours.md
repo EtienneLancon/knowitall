@@ -60,11 +60,6 @@ $x_2 = \frac{-b+\sqrt{\Delta}}{2a}$
 
 Si $\Delta < 0$ on a pas de réponse ([pas de contact avec les abscisses](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#absence-de-contact-avec-laxe-des-abscisses))
 
-### Rapport avec la forme canonique
-
-Dans la [forme canonique](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#formes-dun-p%C3%B4lynome) , on peut avoir les valeur de alpha et beta comme ceci  
-
-
 
 ## Formes d'un pôlynome
 Le pôlynome f peut être écrit de plusieurs manières, ou **formes**.
@@ -78,8 +73,6 @@ $f(x)=ax²+bx+c$
 Si $\Delta > 0$ alors
 
 $f(x)=a(x-x_1)(x-x_2)$
-
-Où $x_1$ et $x_2$ sont les racines du pôlynome.
 
 Si $\Delta = 0$ alors
 

@@ -24,5 +24,3 @@ plt.legend(loc='best', fontsize=8)
 plt.text(0,0,r'$x_0$', fontsize=16, horizontalalignment='center', verticalalignment='bottom')
 
 plt.savefig(__file__[0:-3]+".png")
-
-#plt.savefig("mon_graphique.png")

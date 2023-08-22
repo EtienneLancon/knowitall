@@ -25,5 +25,3 @@ plt.text(-1,0,r'$x_1$', fontsize=16, horizontalalignment='right', verticalalignm
 plt.text(1,0,r'$x_2$', fontsize=16, horizontalalignment='left', verticalalignment='bottom')
 
 plt.savefig(__file__[0:-3]+".png")
-
-#plt.savefig("mon_graphique.png")

@@ -14,9 +14,25 @@ Lorsque x tend vers $+\infty$ et $-\infty$, f(x) peut tendre vers $+\infty$ ou $
 En langage barbare, lorsque x tend vers la gauche et la droite, f(x) peut tendre vers le haut ou vers le bas.  
 Nous verrons plus tard comment déterminer cela par calcul avec un tableau de signes.  
 
-Etant donné la forme d'une parabole, la courbe possède un minimum si elle tend vers $+\infty$ et un maximum si elle tend vers $-\infty$.  
-Si elle possède un minimum inférieur à 0 et tend vers $+\infty$ OU si elle possède un maximum supérieur à 0 et tend vers $-\infty$, alors elle croisera l'axe des abscisses en deux points $x_1$ et $x_2$.  
+Etant donné la forme d'une parabole -  
+
+Si la courbe tend vers $+\infty$ elle possède un minimum  
+
+![fig_001](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_01.png)
+
+Et un maximum si elle tend vers $-\infty$. 
+
+![fig_002](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_02.png)
+
+Si elle possède un minimum **inférieur à 0** et tend vers $+\infty$ OU si elle possède un maximum **supérieur à 0** et tend vers $-\infty$, alors elle croisera l'axe des abscisses en deux points $x_1$ et $x_2$.
 Si elle possède un minimum / maximum égal à 0 alors elle ne "touchera" l'axe des abscisses qu'en un seul point qu'on nommera $x_0$.  
+
+![fig_003](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_03.png)
+
+Si elle possède un minimum **supérieur à 0** et tend vers $+\infty$ OU si elle possède un maximum **inférieur à 0** et tend vers $-\infty$, alors elle ne croisera pas l'axe des abscisses.
+
+![fig_004](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_04.png)
+![fig_005](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_05.png)
 
 On nomme ces valeurs $x_1$ et $x_2$ / $x_0$ les **racines du pôlynome**.  
 Nous verrons [plus tard](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#calcul-des-racines-du-p%C3%B4lynome) comment les déterminer par calcul.

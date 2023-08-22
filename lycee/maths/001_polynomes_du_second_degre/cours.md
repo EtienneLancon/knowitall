@@ -108,4 +108,4 @@ Pour $\Delta < 0$ on a
 Todo: tableau de signes
 
 > [!IMPORTANT]  
-> Prenez le temps de comprendre la relation entre ces tableaux de signes, les représentations graphiques et la valeur du discriminant $\Delta$.
+> Prenez le temps de bien comprendre la relation entre ces tableaux de signes, les [représentations graphiques](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#calcul-des-racines-du-p%C3%B4lynome) et [la valeur du discriminant](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#calcul-des-racines-du-p%C3%B4lynome).

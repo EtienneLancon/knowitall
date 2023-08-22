@@ -34,8 +34,8 @@ Si elle possède un minimum **supérieur à 0** et tend vers $+\infty$ OU si ell
 ![fig_004](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_04.png)
 ![fig_005](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_05.png)
 
-On nomme ces valeurs $x_1$ et $x_2$ / $x_0$ les **racines du pôlynome**.  
-Ce sont les valeurs de x pour lesquelles f(x) = 0;
+On nomme ces valeurs d'interaction entre la courbe du pôlynome et l'axe des abcisses $x_1$ et $x_2$ / $x_0$ les **racines du pôlynome**.  
+Ce sont les valeurs de $x$ pour lesquelles $f(x) = 0$;
 
 
 ## Calcul des racines du pôlynome
@@ -108,4 +108,4 @@ Pour $\Delta < 0$ on a
 Todo: tableau de signes
 
 > [!IMPORTANT]  
-> Prenez le temps de bien comprendre la relation entre ces tableaux de signes, les [représentations graphiques](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#calcul-des-racines-du-p%C3%B4lynome) et [la valeur du discriminant](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#calcul-des-racines-du-p%C3%B4lynome).
+> Prenez le temps de bien comprendre la relation entre ces tableaux de signes, les [représentations graphiques](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#repr%C3%A9sentation-graphique) et [la valeur du discriminant](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#calcul-des-racines-du-p%C3%B4lynome).

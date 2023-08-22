@@ -35,9 +35,7 @@ Si elle possède un minimum **supérieur à 0** et tend vers $+\infty$ OU si ell
 ![fig_005](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_05.png)
 
 On nomme ces valeurs $x_1$ et $x_2$ / $x_0$ les **racines du pôlynome**.  
-Ce sont les valeurs de x pour lesquelles f(x) = 0;  
-Nous verrons [plus tard](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#calcul-des-racines-du-p%C3%B4lynome) comment les déterminer par calcul.
-
+Ce sont les valeurs de x pour lesquelles f(x) = 0;
 
 
 ## Calcul des racines du pôlynome

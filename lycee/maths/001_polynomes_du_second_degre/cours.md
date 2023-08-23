@@ -137,8 +137,8 @@ ax²+bx+c = a(x+\frac{b}{2a})²$$
 
 Si $\Delta > 0$ alors $x_1 = \frac{-b-\sqrt{\Delta}}{2a}$ et $x_2 = \frac{-b+\sqrt{\Delta}}{2a}$
 
-$$ax²+bx+c = a(x-\color{yellow}x_1\color{auto})(x-\color{green}x_2\color{auto})\\
-ax²+bx+c = a(x-\color{yellow}\frac{-b-\sqrt{\Delta}}{2a}\color{auto})(x-\color{green}\frac{-b+\sqrt{\Delta}}{2a}\color{auto})$$
+$$ax²+bx+c = a(x-\color{yellow}x_1\color{auto})(x-\color{green}x_2\color{auto})$$
+$$ax²+bx+c = a(x-\color{yellow}\frac{-b-\sqrt{\Delta}}{2a}\color{auto})(x-\color{green}\frac{-b+\sqrt{\Delta}}{2a}\color{auto})$$
 
 Comme $\Delta = b² -4ac$ alors
 
@@ -148,9 +148,9 @@ $$ax²+bx+c = a(x-\color{yellow}\frac{-b-\sqrt{b² -4ac}}{2a}\color{auto})(x-\co
 
 On a vu que $\alpha = \frac{-b}{2a}$ et $\beta = -\frac{\Delta}{4a} = -\frac{b²-4ac}{4a}$ donc
 
-$$ax²+bx+c = a(x-\color{yellow}\alpha\color{auto})²+\color{green}\beta\color{auto}\\
-a(x-\color{yellow}\frac{-b}{2a}\color{auto})²+\color{green}-\frac{\Delta}{4a}\color{auto}\\
-a(x-\color{yellow}\frac{-b}{2a}\color{auto})²-(\color{green}\frac{b²-4ac}{4a}\color{auto})$$
+$$ax²+bx+c = a(x-\color{yellow}\alpha\color{auto})²+\color{green}\beta\color{auto}$$
+$$a(x-\color{yellow}\frac{-b}{2a}\color{auto})²+\color{green}-\frac{\Delta}{4a}\color{auto}$$
+$$a(x-\color{yellow}\frac{-b}{2a}\color{auto})²-(\color{green}\frac{b²-4ac}{4a}\color{auto})$$
 
 
 ### Utilisation des identités remarquables
@@ -165,38 +165,46 @@ On peut les utiliser dans certains cas pour passer d'une forme à l'autre.
 
 Exemples :
 
-$$\color{yellow}f(x) = 4x²+16x+16\\
-f(x) = 4(x+2)²$$
+$$\color{yellow}f(x) = 4x²+16x+16$$
+$$\color{yellow}f(x) = 4(x²+4x+4)$$
+$$\color{yellow}f(x) = 4(x+2)²$$
 
-$$\color{green}g(x) = 2x²-12x+18\\
-g(x) = 2(x-3)²$$
+$$\color{green}g(x) = 2x²-12x+18$$
+$$\color{green}g(x) = 2(x²-6x+9)$$
+$$\color{green}g(x) = 2(x-3)²$$
 
-$$\color{pink}h(x) = 3x²-12\\
-h(x) = 3(x-2)(x+2)$$
+$$\color{pink}h(x) = 3x²-12$$
+$$\color{pink}h(x) = 3(x²-4)$$
+$$\color{pink}h(x) = 3(x-2)(x+2)$$
 
 > [!INFO]
 > Pour identifier plus facilement les identités remarquables, quelques astuces :
 > Si une identité remarquable est présente alors =>  
 > b et c seront multiples de a (0 compte aussi pour b, on est alors dans le troisième cas).  
-> b sera multiple de 2
+> b sera trèèèèèès probablement multiple de 2
 
 On peut trouver la **forme canonique** avec une sorte "d'identité remarquable forcée".  
 On rappelle qu'elle est de la forme $a(x-\alpha)²+\beta$. Si on ne s'occupe de $a(x-\alpha)²$ alors on a une identité remarquable, celle de $g(x)$ juste au dessus. $\beta$ est l'adaptation d'un $c$ qui ne convient pas pour faire une identité remarquable alors que a et b conviendraient.
-On peut voir cela en reprenant $g(x)$ au dessus en vert et en modifiant $c$ pour qu'il ne convienne plus :
+On peut voir cela en reprenant $g(x)$ légèrement modifiée pour ne plus être une identité remarquable :
 
-$$\color{green}g(x) = 2x²-12x+28\\
-g(x) = 2x²-12x+18+10\\
-g(x) = 2(x-3)²+10\\
-g(x) = a(x-\alpha)²+\beta$$
+$$\color{green}g(x) = 2x²-12x+28$$
+$$\color{green}g(x) = 2x²-12x+18+\color{red}10$$
+On a enlevé 10 à $c$ et on l'a ajouté à la fin de l'équation pour retomber sur une identité remarquable.
+$$\color{green}g(x) = 2(x-3)²+\color{red}10$$
+$$\color{green}g(x) = a(x-\alpha)²+\color{red}\beta$$
 
 On peut vérifier en calculant $\alpha$ et $\beta$ avec les formules vues plus haut.
 
 
-$\alpha = \frac{-b}{2a}\\
-\alpha = \frac{-(-12)}{2*2} = 3$
+$\alpha = \frac{-b}{2a}$
+
+$\alpha = \frac{-(-12)}{2\times2} = 3$
 
 
-$\beta = -\frac{\Delta}{4a}\\
-\beta = -(\frac{b²-4ac}{4a})\\
-\beta = -(\frac{(-12)²-4*2*28}{4*2})
-\beta = -(\frac{144-224}{8}) = 10$
+$\beta = -\frac{\Delta}{4a}$
+
+$\beta = -(\frac{b²-4ac}{4a})$
+
+$\beta = -(\frac{(-12)²-4\times2\times28}{4\times2})$
+
+$\beta = -(\frac{144-224}{8}) = 10$

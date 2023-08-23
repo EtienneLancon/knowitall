@@ -219,7 +219,7 @@ Pour deux nombres dont on connaît la somme S et le produit P, on peut trouver l
 
 $x²-Sx+P=0$
 
-Les deux nombres seront donc les racines du pôlynome.
+Les deux nombres seront donc les racines $x_1$ et $x_2$ du pôlynome.
 
 **Démonstration** :
 

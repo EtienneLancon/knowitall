@@ -170,15 +170,21 @@ On peut les utiliser dans certains cas pour passer d'une forme à l'autre.
 Exemples :
 
 $$\color{teal}f(x) = 4x²+16x+16$$
+
 $$\color{teal}f(x) = 4(x²+4x+4)$$
+
 $$\color{teal}f(x) = 4(x+2)²$$
 
 $$\color{green}g(x) = 2x²-12x+18$$
+
 $$\color{green}g(x) = 2(x²-6x+9)$$
+
 $$\color{green}g(x) = 2(x-3)²$$
 
 $$\color{orange}h(x) = 3x²-12$$
+
 $$\color{orange}h(x) = 3(x²-4)$$
+
 $$\color{orange}h(x) = 3(x-2)(x+2)$$
 
 > [!NOTE]

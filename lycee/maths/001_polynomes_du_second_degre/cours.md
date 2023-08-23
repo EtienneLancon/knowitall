@@ -124,7 +124,7 @@ $\beta = -\frac{\Delta}{4a} = -(\frac{b²-4ac}{4a})$
 ## Passage d'une forme à l'autre
 
 > [!INFO]
-> Partie à comprendre, pas à retenir par coeur. Au besoin revoyez les formes avant de continuer.
+> L'important ici n'est pas de retenir par coeur mais de comprendre comment passer d'une forme à l'autre en jouant avec a, b et c.
 
 ### Forme développée vers forme factorisée
 
@@ -132,8 +132,8 @@ On utilise la formule du discriminant pour trouver les racines du pôlynome $x_1
 
 Si $\Delta = 0$ alors $x_0 = \frac{-b}{2a}$ 
 
-$$ax²+bx+c = a(x-x_0)²\\
-ax²+bx+c = a(x+\frac{b}{2a})²$$
+$$ax²+bx+c = a(x-{\color{teal}x_0})²$$
+$$ax²+bx+c = a(x-{\color{teal}\frac{-b}{2a}})²$$
 
 Si $\Delta > 0$ alors $x_1 = \frac{-b-\sqrt{\Delta}}{2a}$ et $x_2 = \frac{-b+\sqrt{\Delta}}{2a}$
 
@@ -184,7 +184,7 @@ $$\color{orange}h(x) = 3(x-2)(x+2)$$
 > b sera trèèèèèès probablement multiple de 2
 
 On peut trouver la **forme canonique** avec une sorte "d'identité remarquable forcée".  
-On rappelle qu'elle est de la forme $a(x-\alpha)²+\beta$. Si on ne s'occupe de $a(x-\alpha)²$ alors on a une identité remarquable, celle de $g(x)$ juste au dessus. $\beta$ est l'adaptation d'un $c$ qui ne convient pas pour faire une identité remarquable alors que a et b conviendraient.
+On rappelle qu'elle est de la forme $a(x-\alpha)²+\beta$. Si on ne s'occupe que de $a(x-\alpha)²$ alors on a une identité remarquable, celle de $\color{green}g(x)$ juste au dessus. $\beta$ est dans ce cas l'adaptation d'un $c$ qui ne convient pas pour faire une identité remarquable alors que $a$ et $b$ conviendraient.
 On peut voir cela en reprenant $g(x)$ légèrement modifiée pour ne plus être une identité remarquable :
 
 $$\color{green}g(x) = 2x²-12x+28$$

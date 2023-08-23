@@ -16,7 +16,7 @@ Avec a = 2, b = 3 et c = -1
 La courbe d'un pôlynome est une **parabole**.  
 Lorsque x tend vers $+\infty$ et $-\infty$, $f$(x) peut tendre vers $+\infty$ ou $-\infty$.  
 En langage barbare, lorsque x tend vers la gauche et la droite, $f$(x) peut tendre vers le haut ou vers le bas.  
-Nous verrons plus tard comment déterminer cela par calcul avec un tableau de signes.  
+Nous verrons plus tard comment déterminer cela par calcul avec un [tableau de signes](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#etude-du-signe-dun-p%C3%B4lynome).  
 
 
 ### Intersection avec l'axe des abscisses
@@ -137,47 +137,47 @@ ax²+bx+c = a(x+\frac{b}{2a})²$$
 
 Si $\Delta > 0$ alors $x_1 = \frac{-b-\sqrt{\Delta}}{2a}$ et $x_2 = \frac{-b+\sqrt{\Delta}}{2a}$
 
-$$ax²+bx+c = a(x-\color{yellow}x_1\color{auto})(x-\color{green}x_2\color{auto})$$
-$$ax²+bx+c = a(x-\color{yellow}\frac{-b-\sqrt{\Delta}}{2a}\color{auto})(x-\color{green}\frac{-b+\sqrt{\Delta}}{2a}\color{auto})$$
+$$ax²+bx+c = a(x-{\color{teal}x_1})(x-{\color{orange}x_2})$$
+$$ax²+bx+c = a(x-{\color{teal}\frac{-b-\sqrt{\Delta}}{2a}})(x-{\color{orange}\frac{-b+\sqrt{\Delta}}{2a}})$$
 
 Comme $\Delta = b² -4ac$ alors
 
-$$ax²+bx+c = a(x-\color{yellow}\frac{-b-\sqrt{b² -4ac}}{2a}\color{auto})(x-\color{green}\frac{-b+\sqrt{b² -4ac}}{2a}\color{auto})$$
+$$ax²+bx+c = a(x-{\color{teal}\frac{-b-\sqrt{b² -4ac}}{2a}})(x-{\color{orange}\frac{-b+\sqrt{b² -4ac}}{2a}})$$
 
 ### Forme développée vers forme canonique
 
 On a vu que $\alpha = \frac{-b}{2a}$ et $\beta = -\frac{\Delta}{4a} = -\frac{b²-4ac}{4a}$ donc
 
-$$ax²+bx+c = a(x-\color{yellow}\alpha\color{auto})²+\color{green}\beta\color{auto}$$
-$$a(x-\color{yellow}\frac{-b}{2a}\color{auto})²+\color{green}-\frac{\Delta}{4a}\color{auto}$$
-$$a(x-\color{yellow}\frac{-b}{2a}\color{auto})²-(\color{green}\frac{b²-4ac}{4a}\color{auto})$$
+$$ax²+bx+c = a(x-{\color{teal}\alpha})²+{\color{orange}\beta}$$
+$$a(x-{\color{teal}\frac{-b}{2a}})²+{\color{orange}-\frac{\Delta}{4a}}$$
+$$a(x-{\color{teal}\frac{-b}{2a}})²-({\color{orange}\frac{b²-4ac}{4a}})$$
 
 
 ### Utilisation des identités remarquables
 
 **Rappel des identités remarquables**  
 
-$\color{yellow}(a+b)² = a² + 2ab + b²$  
+$\color{teal}(a+b)² = a² + 2ab + b²$  
 $\color{green}(a-b)² = a² - 2ab + b²$  
-$\color{pink}(a+b)(a-b) = a² - b²$
+$\color{orange}(a+b)(a-b) = a² - b²$
 
 On peut les utiliser dans certains cas pour passer d'une forme à l'autre.
 
 Exemples :
 
-$$\color{yellow}f(x) = 4x²+16x+16$$
-$$\color{yellow}f(x) = 4(x²+4x+4)$$
-$$\color{yellow}f(x) = 4(x+2)²$$
+$$\color{teal}f(x) = 4x²+16x+16$$
+$$\color{teal}f(x) = 4(x²+4x+4)$$
+$$\color{teal}f(x) = 4(x+2)²$$
 
 $$\color{green}g(x) = 2x²-12x+18$$
 $$\color{green}g(x) = 2(x²-6x+9)$$
 $$\color{green}g(x) = 2(x-3)²$$
 
-$$\color{pink}h(x) = 3x²-12$$
-$$\color{pink}h(x) = 3(x²-4)$$
-$$\color{pink}h(x) = 3(x-2)(x+2)$$
+$$\color{orange}h(x) = 3x²-12$$
+$$\color{orange}h(x) = 3(x²-4)$$
+$$\color{orange}h(x) = 3(x-2)(x+2)$$
 
-> [!INFO]
+> [!NOTE]
 > Pour identifier plus facilement les identités remarquables, quelques astuces :
 > Si une identité remarquable est présente alors =>  
 > b et c seront multiples de a (0 compte aussi pour b, on est alors dans le troisième cas).  
@@ -212,3 +212,19 @@ $\beta = -(\frac{b²-4ac}{4a})$
 $\beta = -(\frac{(-12)²-4\times2\times28}{4\times2})$
 
 $\beta = -(\frac{144-224}{8}) = 10$
+
+## Produit et somme des racines
+
+Pour deux nombres dont on connaît la somme S et le produit P, on peut trouver les deux nombres en résolvant l'équation suivante :
+
+$x²-Sx+P=0$
+
+Les deux nombres seront donc les racines du pôlynome.
+
+**Démonstration** :
+
+On va pour cela utiliser la [forme factorisée](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#formes-dun-p%C3%B4lynome) de ce pôlynome
+
+$$1(x-x_1)(x-x_2) = x² -xx_1-xx_2+x_1x_2$$
+$$1(x-x_1)(x-x_2) = x² -(x_1+x_2)x+x_1x_2$$
+$$1(x-x_1)(x-x_2) = x² -Sx+P$$

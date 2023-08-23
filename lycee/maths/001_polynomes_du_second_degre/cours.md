@@ -7,6 +7,10 @@ $f(x)=ax²+bx+c$
 Où a, b et c sont des nombres réel et où **a est non nul**. 
 Si a est nul alors la fonction $f$ est une fonction affine.
 
+Exemple de pôlynome du second degré : $f(x)=2x²+3x-1$
+
+Avec a = 2, b = 3 et c = -1
+
 ## Représentation graphique
 
 La courbe d'un pôlynome est une **parabole**.  
@@ -39,6 +43,9 @@ Ce sont les valeurs de $x$ pour lesquelles $f(x) = 0$;
 
 
 ## Calcul des racines du pôlynome
+
+> [!WARNING]  
+> Formules à retenir par coeur
 
 Calculer les racines du pôlynome revient donc à trouver par calcul les valeurs de x pour lesquelles la fonction f(x) vaudra 0.
 On a vu dans la partie [représentation graphique](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#repr%C3%A9sentation-graphique) que cette question avait parfois 2 réponses, parfois 1, et parfois pas de réponse.
@@ -83,6 +90,9 @@ Todo: tableau de signes
 ## Formes d'un pôlynome
 La fonction pôlynome $f$ peut être écrite de plusieurs manières, ou **formes**.
 
+> [!WARNING]  
+> Formules à retenir par coeur
+
 **Forme développée**
 
 $f(x)=ax²+bx+c$
@@ -108,12 +118,15 @@ Où
 $\alpha = \frac{-b}{2a}$
 
 
-$\beta = \frac{\Delta}{4a} = \frac{b²-4ac}{4a}$
+$\beta = -\frac{\Delta}{4a} = -(\frac{b²-4ac}{4a})$
 
 
-### Passage d'une forme à l'autre
+## Passage d'une forme à l'autre
 
-**Forme développée vers forme factorisée**
+> [!INFO]
+> Partie à comprendre, pas à retenir par coeur. Au besoin revoyez les formes avant de continuer.
+
+### Forme développée vers forme factorisée
 
 On utilise la formule du discriminant pour trouver les racines du pôlynome $x_1$ et $x_2$ ou $x_0$.
 
@@ -131,4 +144,59 @@ Comme $\Delta = b² -4ac$ alors
 
 $$ax²+bx+c = a(x-\color{yellow}\frac{-b-\sqrt{b² -4ac}}{2a}\color{auto})(x-\color{green}\frac{-b+\sqrt{b² -4ac}}{2a}\color{auto})$$
 
+### Forme développée vers forme canonique
 
+On a vu que $\alpha = \frac{-b}{2a}$ et $\beta = -\frac{\Delta}{4a} = -\frac{b²-4ac}{4a}$ donc
+
+$$ax²+bx+c = a(x-\color{yellow}\alpha\color{auto})²+\color{green}\beta\color{auto}\\
+a(x-\color{yellow}\frac{-b}{2a}\color{auto})²+\color{green}-\frac{\Delta}{4a}\color{auto}\\
+a(x-\color{yellow}\frac{-b}{2a}\color{auto})²-(\color{green}\frac{b²-4ac}{4a}\color{auto})$$
+
+
+### Utilisation des identités remarquables
+
+**Rappel des identités remarquables**  
+
+$\color{yellow}(a+b)² = a² + 2ab + b²$  
+$\color{green}(a-b)² = a² - 2ab + b²$  
+$\color{pink}(a+b)(a-b) = a² - b²$
+
+On peut les utiliser dans certains cas pour passer d'une forme à l'autre.
+
+Exemples :
+
+$$\color{yellow}f(x) = 4x²+16x+16\\
+f(x) = 4(x+2)²$$
+
+$$\color{green}g(x) = 2x²-12x+18\\
+g(x) = 2(x-3)²$$
+
+$$\color{pink}h(x) = 3x²-12\\
+h(x) = 3(x-2)(x+2)$$
+
+> [!INFO]
+> Pour identifier plus facilement les identités remarquables, quelques astuces :
+> Si une identité remarquable est présente alors =>  
+> b et c seront multiples de a (0 compte aussi pour b, on est alors dans le troisième cas).  
+> b sera multiple de 2
+
+On peut trouver la **forme canonique** avec une sorte "d'identité remarquable forcée".  
+On rappelle qu'elle est de la forme $a(x-\alpha)²+\beta$. Si on ne s'occupe de $a(x-\alpha)²$ alors on a une identité remarquable, celle de $g(x)$ juste au dessus. $\beta$ est l'adaptation d'un $c$ qui ne convient pas pour faire une identité remarquable alors que a et b conviendraient.
+On peut voir cela en reprenant $g(x)$ au dessus en vert et en modifiant $c$ pour qu'il ne convienne plus :
+
+$$\color{green}g(x) = 2x²-12x+28\\
+g(x) = 2x²-12x+18+10\\
+g(x) = 2(x-3)²+10\\
+g(x) = a(x-\alpha)²+\beta$$
+
+On peut vérifier en calculant $\alpha$ et $\beta$ avec les formules vues plus haut.
+
+
+$\alpha = \frac{-b}{2a}\\
+\alpha = \frac{-(-12)}{2*2} = 3$
+
+
+$\beta = -\frac{\Delta}{4a}\\
+\beta = -(\frac{b²-4ac}{4a})\\
+\beta = -(\frac{(-12)²-4*2*28}{4*2})
+\beta = -(\frac{144-224}{8}) = 10$

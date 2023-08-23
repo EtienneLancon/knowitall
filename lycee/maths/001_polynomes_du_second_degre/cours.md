@@ -139,6 +139,7 @@ $$ax²+bx+c = a(x-{\color{teal}\frac{-b}{2a}})²$$
 Si $\Delta > 0$ alors $x_1 = \frac{-b-\sqrt{\Delta}}{2a}$ et $x_2 = \frac{-b+\sqrt{\Delta}}{2a}$
 
 $$ax²+bx+c = a(x-{\color{teal}x_1})(x-{\color{orange}x_2})$$
+
 $$ax²+bx+c = a(x-{\color{teal}\frac{-b-\sqrt{\Delta}}{2a}})(x-{\color{orange}\frac{-b+\sqrt{\Delta}}{2a}})$$
 
 Comme $\Delta = b² -4ac$ alors

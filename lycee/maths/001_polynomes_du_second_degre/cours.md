@@ -123,7 +123,7 @@ $\beta = -\frac{\Delta}{4a} = -(\frac{b²-4ac}{4a})$
 
 ## Passage d'une forme à l'autre
 
-> [!INFO]
+> [!NOTE]
 > L'important ici n'est pas de retenir par coeur mais de comprendre comment passer d'une forme à l'autre en jouant avec a, b et c.
 
 ### Forme développée vers forme factorisée

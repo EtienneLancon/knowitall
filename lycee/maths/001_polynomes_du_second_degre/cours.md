@@ -151,7 +151,9 @@ $$ax²+bx+c = a(x-{\color{teal}\frac{-b-\sqrt{b² -4ac}}{2a}})(x-{\color{orange}
 On a vu que $\alpha = \frac{-b}{2a}$ et $\beta = -\frac{\Delta}{4a} = -\frac{b²-4ac}{4a}$ donc
 
 $$ax²+bx+c = a(x-{\color{teal}\alpha})²+{\color{orange}\beta}$$
+
 $$a(x-{\color{teal}\frac{-b}{2a}})²+{\color{orange}-\frac{\Delta}{4a}}$$
+
 $$a(x-{\color{teal}\frac{-b}{2a}})²-({\color{orange}\frac{b²-4ac}{4a}})$$
 
 

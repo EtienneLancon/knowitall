@@ -188,9 +188,13 @@ On rappelle qu'elle est de la forme $a(x-\alpha)²+\beta$. Si on ne s'occupe de 
 On peut voir cela en reprenant $g(x)$ légèrement modifiée pour ne plus être une identité remarquable :
 
 $$\color{green}g(x) = 2x²-12x+28$$
+
 $$\color{green}g(x) = 2x²-12x+18+\color{red}10$$
+
 On a enlevé 10 à $c$ et on l'a ajouté à la fin de l'équation pour retomber sur une identité remarquable.
+
 $$\color{green}g(x) = 2(x-3)²+\color{red}10$$
+
 $$\color{green}g(x) = a(x-\alpha)²+\color{red}\beta$$
 
 On peut vérifier en calculant $\alpha$ et $\beta$ avec les formules vues plus haut.

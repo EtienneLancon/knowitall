@@ -133,6 +133,7 @@ On utilise la formule du discriminant pour trouver les racines du pôlynome $x_1
 Si $\Delta = 0$ alors $x_0 = \frac{-b}{2a}$ 
 
 $$ax²+bx+c = a(x-{\color{teal}x_0})²$$
+
 $$ax²+bx+c = a(x-{\color{teal}\frac{-b}{2a}})²$$
 
 Si $\Delta > 0$ alors $x_1 = \frac{-b-\sqrt{\Delta}}{2a}$ et $x_2 = \frac{-b+\sqrt{\Delta}}{2a}$

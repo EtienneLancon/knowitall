@@ -32,3 +32,5 @@ Si les termes de la suite peuvent se rapprocher indéfiniment d'une valeur $l$, 
 > On note alors $\lim\limits_{n \to +\infty} u_n = l$
 
 $l$ n'est pas forcément un nombre réel. $+\infty$, $-\infty$ sont des limites possibles.
+
+![fig_02](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/002_suites_numeriques/ressources/002_fig_01.png)

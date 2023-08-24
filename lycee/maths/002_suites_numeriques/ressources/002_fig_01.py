@@ -1,6 +1,3 @@
-#merci à Yann Bouyeron pour son petit tuto bien pratique
-#https://gist.github.com/YannBouyeron/c0684bf235f2f2835369dffabf67d5c4
-
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d

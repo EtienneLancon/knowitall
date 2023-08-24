@@ -223,10 +223,12 @@ Les deux nombres seront donc les racines $x_1$ et $x_2$ du pôlynome.
 
 **Démonstration** :
 
-On va pour cela utiliser la [forme factorisée](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#formes-dun-p%C3%B4lynome) de ce pôlynome
+On va pour cela utiliser la [forme factorisée](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#formes-dun-p%C3%B4lynome) de ce pôlynome  
 
-$$1(x-x_1)(x-x_2) = x² -xx_1-xx_2+x_1x_2$$
+$$1(x-x_1)(x-x_2)$$
 
-$$1(x-x_1)(x-x_2) = x² -(x_1+x_2)x+x_1x_2$$
+$$x² -xx_1-xx_2+x_1x_2$$
 
-$$1(x-x_1)(x-x_2) = x² -Sx+P$$
+$$x² -({\color{orange}x_1+x_2})x+{\color{teal}x_1x_2}$$
+
+$$x² -{\color{orange}S}x+{\color{teal}P}$$

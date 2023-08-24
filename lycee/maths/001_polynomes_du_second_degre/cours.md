@@ -72,17 +72,7 @@ Etudier le signe d'un pôlynome revient à se demander "pour chaque $x$, est-ce 
 
 Dans le cas où le pôlynome est sous forme factorisée, on peut utiliser le tableau de signes pour trouver les valeurs de $x$ pour lesquelles $f(x)$ est positif ou négatif.
 
-Pour $\Delta > 0$ on a
-
-Todo: tableau de signes
-
-Pour $\Delta = 0$ on a
-
-Todo: tableau de signes
-
-Pour $\Delta < 0$ on a
-
-Todo: tableau de signes
+![fig006](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/ressources/001_fig_06.png)
 
 > [!IMPORTANT]  
 > Prenez le temps de bien comprendre la relation entre ces tableaux de signes, les [représentations graphiques](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#repr%C3%A9sentation-graphique) et [la valeur du discriminant](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/001_polynomes_du_second_degre/cours.md#calcul-des-racines-du-p%C3%B4lynome).
@@ -191,7 +181,7 @@ $$\color{orange}h(x) = 3(x-2)(x+2)$$
 > Pour identifier plus facilement les identités remarquables, quelques astuces :
 > Si une identité remarquable est présente alors =>  
 > b et c seront multiples de a (0 compte aussi pour b, on est alors dans le troisième cas).  
-> b sera trèèèèèès probablement multiple de 2
+> b sera très probablement multiple de 2
 
 On peut trouver la **forme canonique** avec une sorte "d'identité remarquable forcée".  
 On rappelle qu'elle est de la forme $a(x-\alpha)²+\beta$. Si on ne s'occupe que de $a(x-\alpha)²$ alors on a une identité remarquable, celle de $\color{green}g(x)$ juste au dessus. $\beta$ est dans ce cas l'adaptation d'un $c$ qui ne convient pas pour faire une identité remarquable alors que $a$ et $b$ conviendraient.

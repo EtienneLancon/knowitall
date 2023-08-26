@@ -25,7 +25,7 @@ $u_n = {\color{orange}u_{n-1}} + 2$
 
 
 Si pour tout $n$, $u_n > u_n-1$, la suite est dite **croissante**.  
-Inversement, si pour tous $n$, $u_n < $u_n-1$, la suite est dite **décroissante**.
+Inversement, si pour tout $n$, $u_n < u_n-1$, la suite est dite **décroissante**.
 
 ## Représentation graphique
 
@@ -50,7 +50,10 @@ $u_{n+1} = u_n + r$
 
 $r$ étant un nombre réel appelé **raison** de la suite.
 
-On peut aussi définir une suite arithétique comme étant le nombre de fois que la raison $r$ est ajoutée à un terme initial $u_0$ :
+Si $r$ est positif, la suite est croissante.  
+Si $r$ est négatif, la suite est décroissante.
+
+On peut aussi définir un terme quelconque d'une suite arithmétique comme étant le nombre de fois que la raison $r$ est ajoutée au terme initial $u_0$ :
 
 $u_n = u_0 + nr$
 
@@ -58,29 +61,38 @@ On peut étendre cette formule à deux termes quelconques qui auront alors pour 
 
 $u_n = u_p + (n-p)r$
 
-Si $r$ est positif, la suite est croissante.  
-Si $r$ est négatif, la suite est décroissante.
-
 ### Somme des termes d'une suite arithmétique
 
-La somme des termes $S_n$ d'une suite arithmétique est égale à la moyenne des termes extrêmes multipliée par le nombre de termes.
+La somme des termes de $u_0$ à $u_n$, notée $S_n$, d'une suite arithmétique est égale à la moyenne des termes extrêmes multipliée par le nombre de termes.
 
-Un petit schéma un peu simpliste pour illustrer la problématique de manière intuitive :
+La moyenne des termes extrêmes est égale à la moyenne du premier et du dernier terme, soit $\frac{u_0 + u_n}{2}$.
+
+Le nombre de termes est égal à $n+1$.  
+On a donc :
+$$S_n = \frac{{\color{teal}u_0 + u_n}}{2} \times (n+1)$$
+
+
+Comme les fois précédentes, on peut étendre cette formule à deux termes quelconques :
+
+$$\sum_p^n = \frac{u_p + u_n}{2} \times (n-p+1)$$
+
+> Pour ceux qui ne seraient pas accoutumés à ce symbole, il signifie "la somme des termes de $u_p$ à $u_n$".
+
+Un petit schéma un peu (très) simpliste pour illustrer la problématique de manière intuitive :
 
 ![fig_02](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/002_suites_numeriques/ressources/002_fig_02.png)
 
-Dans ce graphique, l'aire du rectangle entre l'axe des abscisses et la droite en pointillés est égale au nombre d'entiers qui forment l'axe des abscisses multiplié par la droite en pointillés qui est la somme des termes extrêmes de la suite $u_0 + u_n$.  
-La formule de l'aire d'un rectangle est 
+La droite en pointillés rouges étant ${\color{teal}u_0 + u_n}$, y'a quelque chose de divisé par deux qui se balade par ici, vous en conviendrez.
 
-Aire = longueur $\times$ largeur.
+Un petit rappel de géométrie au passage :  
+L'aire d'un rectangle est égale à la longueur multipliée par la largeur.  
+L'aire d'un triangle est égale à la longueur multipliée par la largeur, _le tout divisé par deux_.
 
-Aire = $(n+1) \times (u_0 + u_n)$
+>C'est une approche très intuitive, mais qui ne constitue pas une démonstration, et qui ne peut pas être considérée comme une preuve.  
+>De plus il ne faut pas croire que toutes les suites arithmétiques forment un triangle avec l'axe des abcisses.
 
-Visuellement sur le graphique, on peut voir que l'aire de $S_n$ sera égale à la moitié de l'aire du rectangle précédent.
+Pour une démonstration plus rigoureuse, je vous encourage à consulter [cette page](https://les-suites.fr/arithmetique/somme-des-termes.php).
 
-Aire = $\frac{(n+1) \times (u_0 + u_n)}{2}$
-
-Pour une démonstration plus rigoureuse, vous pouvez consulter [cette page](https://les-suites.fr/arithmetique/somme-des-termes.php).
 
 
 ## Suites géométriques
@@ -101,3 +113,44 @@ $u_n = u_0 \times q^n$
 Et l'on peut de même élargir à
 
 $u_n = u_p \times q^{n-p}$
+
+Le **sens de variation** de la suite dépend des valeurs de $q$ et $u_0$.
+
+Si $u_0 > 0$ :  
+- Si $q > 1$, la suite est croissante.  
+- Si $0 < q < 1$, la suite est décroissante.
+
+Si $u_0 < 0$ :
+- Si $q > 1$, la suite est décroissante.
+- Si $0 < q < 1$, la suite est croissante.
+
+On note que le cas $q < 0$ n'est pas mentionné car on ne poura alors pas définir de sens de variation, chaque terme de la suite étant de signe opposé au précédent.
+
+### Somme des termes d'une suite géométrique
+
+La somme des termes de $u_0$ à $u_n$, notée $S_n$, d'une suite géométrique est égale à la formule suivante :
+
+$$S_n = u_0 \times \frac{{\color{orange}1-q^{n}}}{{\color{teal}1-q}}$$
+
+
+*Comprendre cette formule*
+
+Dans le cas d'une raison $q$ telle que $0 < q < 1$, plus $n$ est grand, plus $q^n$ est petit, et donc plus $u_n$ est petit.
+
+![fig_03](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/002_suites_numeriques/ressources/002_fig_03.png)
+
+Ainsi la majeure partie de la somme des termes de la suite sera constituée des premiers termes, qui sont les plus grands.
+
+**A l'inverse**, dans le cas d'une raison $q$ telle que $q > 1$, plus $n$ est grand, plus $q^n$ est grand, et donc plus $u_n$ est grand.
+
+![fig_04](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/002_suites_numeriques/ressources/002_fig_04.png)
+
+Dans ce cas, c'est les premiers termes qui sont les plus petits, et la majeure partie de la somme des termes de la suite sera constituée des derniers termes, qui sont les plus grands.
+
+Le but de cette formule est de prendre en compte de manière naturelle la valeur de $u_0$, et d'y ajouter une valeur qui s'effrondredra ou explosera en fonction de la valeur de $q$, c'est le rôle de la fraction $\frac{{\color{orange}1-q^{n}}}{{\color{teal}1-q}}$.
+
+Une fois de plus je vous invite à aller voir la démonstration sur [cette page](https://les-suites.fr/geometrique/somme-des-termes.php).
+
+Comme à chacune des formules, on peut l'étendre à deux termes quelconques :
+
+$$\sum_p^n = u_p \times \frac{1-q^{n-p+1}}{1-q}$$

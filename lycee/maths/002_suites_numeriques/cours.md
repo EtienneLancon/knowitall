@@ -37,7 +37,7 @@ Si les termes de la suite peuvent se rapprocher indéfiniment d'une valeur $l$, 
 
 $l$ n'est pas forcément un nombre réel. $+\infty$, $-\infty$ sont des limites possibles.
 
-![fig_02](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/002_suites_numeriques/ressources/002_fig_01.png)
+![fig_01](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/002_suites_numeriques/ressources/002_fig_01.png)
 
 ## Suites arithmétiques
 
@@ -63,6 +63,24 @@ Si $r$ est négatif, la suite est décroissante.
 
 ### Somme des termes d'une suite arithmétique
 
+La somme des termes $S_n$ d'une suite arithmétique est égale à la moyenne des termes extrêmes multipliée par le nombre de termes.
+
+Un petit schéma un peu simpliste pour illustrer la problématique de manière intuitive :
+
+![fig_02](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/002_suites_numeriques/ressources/002_fig_02.png)
+
+Dans ce graphique, l'aire du rectangle entre l'axe des abscisses et la droite en pointillés est égale au nombre d'entiers qui forment l'axe des abscisses multiplié par la droite en pointillés qui est la somme des termes extrêmes de la suite $u_0 + u_n$.  
+La formule de l'aire d'un rectangle est 
+
+Aire = longueur $\times$ largeur.
+
+Aire = $(n+1) \times (u_0 + u_n)$
+
+Visuellement sur le graphique, on peut voir que l'aire de $S_n$ sera égale à la moitié de l'aire du rectangle précédent.
+
+Aire = $\frac{(n+1) \times (u_0 + u_n)}{2}$
+
+Pour une démonstration plus rigoureuse, vous pouvez consulter [cette page](https://les-suites.fr/arithmetique/somme-des-termes.php).
 
 
 ## Suites géométriques

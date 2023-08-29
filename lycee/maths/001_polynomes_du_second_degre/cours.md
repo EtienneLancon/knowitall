@@ -1,4 +1,4 @@
-[Retou au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)
+[Retour au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)
 
 # Fonctions pôlynomes du second degré
 
@@ -235,4 +235,4 @@ $$x² -({\color{orange}x_1+x_2})x+{\color{teal}x_1x_2}$$
 
 $$x² -{\color{orange}S}x+{\color{teal}P}$$
 
-[Retou au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)
+[Retour au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)

@@ -1,4 +1,4 @@
-[Retou au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)
+[Retour au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)
 
 # Suites numériques
 
@@ -157,4 +157,4 @@ Comme à chacune des formules, on peut l'étendre à deux termes quelconques :
 
 $$\sum_p^n = u_p \times \frac{1-q^{n-p+1}}{1-q}$$
 
-[Retou au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)
+[Retour au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)

@@ -1,3 +1,5 @@
+[Retou au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)
+
 # Fonctions pôlynomes du second degré
 
 On appelle pôlynome du second degré une fonction du type
@@ -142,9 +144,9 @@ On a vu que $\alpha = \frac{-b}{2a}$ et $\beta = -\frac{\Delta}{4a} = -\frac{b²
 
 $$ax²+bx+c = a(x-{\color{teal}\alpha})²+{\color{orange}\beta}$$
 
-$$a(x-{\color{teal}\frac{-b}{2a}})²+{\color{orange}-\frac{\Delta}{4a}}$$
+$$ax²+bx+c = a(x-{\color{teal}\frac{-b}{2a}})²+{\color{orange}-\frac{\Delta}{4a}}$$
 
-$$a(x-{\color{teal}\frac{-b}{2a}})²-({\color{orange}\frac{b²-4ac}{4a}})$$
+$$ax²+bx+c = a(x-{\color{teal}\frac{-b}{2a}})²-({\color{orange}\frac{b²-4ac}{4a}})$$
 
 
 ### Utilisation des identités remarquables
@@ -232,3 +234,5 @@ $$x² -xx_1-xx_2+x_1x_2$$
 $$x² -({\color{orange}x_1+x_2})x+{\color{teal}x_1x_2}$$
 
 $$x² -{\color{orange}S}x+{\color{teal}P}$$
+
+[Retou au sommaire](https://github.com/EtienneLancon/knowitall/blob/master/lycee/maths/sommaire.md)

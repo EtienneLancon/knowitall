@@ -132,7 +132,7 @@ On note que le cas $q < 0$ n'est pas mentionné car on ne poura alors pas défin
 
 La somme des termes de $u_0$ à $u_n$, notée $S_n$, d'une suite géométrique est égale à la formule suivante :
 
-$$S_n = u_0 \times \frac{{\color{orange}1-q^{n}}}{{\color{teal}1-q}}$$
+$$S_n = u_0 \times \frac{1-q^{n}}{1-q}$$
 
 
 *Comprendre cette formule*
@@ -149,7 +149,9 @@ Ainsi la majeure partie de la somme des termes de la suite sera constituée des 
 
 Dans ce cas, c'est les premiers termes qui sont les plus petits, et la majeure partie de la somme des termes de la suite sera constituée des derniers termes, qui sont les plus grands.
 
-Le but de cette formule est de prendre en compte de manière naturelle la valeur de $u_0$, et d'y ajouter une valeur qui s'effrondredra ou explosera en fonction de la valeur de $q$, c'est le rôle de la fraction $\frac{{\color{orange}1-q^{n}}}{{\color{teal}1-q}}$.
+Le but de cette formule est de prendre en compte de manière naturelle la valeur de $u_0$ en la multipliant par une valeur, $\frac{1-q^{n}}{1-q}$, qui ne sera jamais inférieure à 1 pour garantir l'intégrité de $u_0$, et qui d'une part   
+- Sera très légèrement supérieure à 1 si $q < 1$
+- Aura une valeur exponentielle selon $n$ si $q > 1$.
 
 Une fois de plus je vous invite à aller voir la démonstration sur [cette page](https://les-suites.fr/geometrique/somme-des-termes.php).
 
